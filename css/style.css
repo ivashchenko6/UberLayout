@@ -1,0 +1,121 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+}
+header nav {
+  height: 50px;
+  background: #212121;
+}
+header nav .menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 13px 70px;
+  margin: 0;
+}
+header nav .menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 45px;
+}
+header nav .menu .menu_item .menu_link {
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header .subheader {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+}
+header .subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+header .subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+header .subheader .subheader_call {
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+  color: #FFFFFF;
+}
+header .subheader .subheader_phone {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header .subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  margin-top: 19px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+  padding: 150px 0 135px 0;
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.png") center center/cover no-repeat;
+  text-align: center;
+}
+.promo .promo_header {
+  font-weight: 900;
+  font-size: 60px;
+  color: #FFFFFF;
+  line-height: 60px;
+  margin: 0;
+}
+.promo .promo_subheader {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 22px;
+}
+.promo .promo_descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  margin-top: 23px;
+  color: #FFFFFF;
+}
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}/*# sourceMappingURL=style.css.map */
